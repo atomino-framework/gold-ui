@@ -1,7 +1,7 @@
 <script lang="ts">
 	import {get} from "svelte/store";
 	import type {Writable} from "svelte/store";
-	import ListManager from "../list-manager";
+	import ListManager from "list-manager";
 
 	export let listManager: ListManager;
 

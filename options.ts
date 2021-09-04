@@ -1,5 +1,5 @@
-import type {IOptions} from "./interfaces";
-import FaIcon from "./fa-icon";
+import type {IOptions} from "interfaces";
+import FaIcon from "fa-icon";
 
 let options: IOptions = {
 	title: "Gold admin",

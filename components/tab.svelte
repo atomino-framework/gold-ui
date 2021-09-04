@@ -1,9 +1,9 @@
 <script lang="ts">
 	import {Icon} from "svelma"
 	import type {Writable} from "svelte/store";
-	import FaIcon from "../fa-icon";
-	import type Page from "../page";
-	import options from "../options";
+	import FaIcon from "fa-icon";
+	import type Page from "page";
+	import options from "options";
 
 
 	export let page: Page;

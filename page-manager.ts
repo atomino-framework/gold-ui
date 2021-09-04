@@ -1,6 +1,6 @@
 // @ts-ignore
 import type ListManager from "gold/list-manager";
-import type Page from "./page";
+import type Page from "page";
 import {get, writable} from "svelte/store";
 import type {Writable} from "svelte/store";
 

@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type {IAuthApi} from "../interfaces";
-	import options from "../options";
+	import type {IAuthApi} from "interfaces";
+	import options from "options";
 
 	let login:string = '';
 	let password:string = '';

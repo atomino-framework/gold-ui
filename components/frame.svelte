@@ -1,13 +1,13 @@
 <script lang="ts">
-	import modalManager from "../modal-manager";
-	import type {IAuthApi} from "../interfaces";
-	import MenuItem from "../menu-item";
-	import type ListManager from "../list-manager";
-	import type PageManager from "../page-manager";
-	import Header from "./header.svelte";
-	import ListContainer from "./list-container.svelte";
-	import Tabs from "./tabs.svelte";
-	import Pages from "./pages.svelte"
+	import modalManager from "modal-manager";
+	import type {IAuthApi} from "interfaces";
+	import MenuItem from "menu-item";
+	import type ListManager from "list-manager";
+	import type PageManager from "page-manager";
+	import Header from "components/header.svelte";
+	import ListContainer from "components/list-container.svelte";
+	import Tabs from "components/tabs.svelte";
+	import Pages from "components/pages.svelte"
 
 	export let pageManager:PageManager;
 	export let listManager:ListManager;

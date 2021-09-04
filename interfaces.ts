@@ -1,4 +1,4 @@
-import type FaIcon from "gold/fa-icon";
+import type FaIcon from "fa-icon";
 import type {Writable} from "svelte/store";
 
 export interface IAuthApi{

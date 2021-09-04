@@ -1,6 +1,6 @@
 import type {SvelteComponent} from "svelte";
-import FaIcon from "./fa-icon";
-import type PageManager from "./page-manager";
+import FaIcon from "fa-icon";
+import type PageManager from "page-manager";
 import {writable} from "svelte/store";
 import type {Writable} from "svelte/store";
 

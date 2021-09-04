@@ -16,7 +16,7 @@ export default class FaIcon {
 	pulse() { this.animation = "pulse"; return this; }
 
 	protected faa:FaAnim|null = null;
-	public anim = {
+	public anim:any = {
 		wrench: (speed:number = 2, reverse:boolean = false, hover:boolean = false) => { this.faa = new FaAnim("wrench", speed, reverse, hover); return this; },
 		ring: (speed:number = 2, reverse:boolean = false, hover:boolean = false) => { this.faa = new FaAnim("ring", speed, reverse, hover); return this; },
 		horizontal: (speed:number = 2, reverse:boolean = false, hover:boolean = false) => { this.faa = new FaAnim("horizontal", speed, reverse, hover); return this; },

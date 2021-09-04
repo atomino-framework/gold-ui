@@ -1,13 +1,11 @@
 {
 	"compilerOptions": {
-		"outDir": "lib",
 		"declaration": true,
-		"declarationDir": "typings",
 		"declarationMap": true,
 		"sourceMap": true,
 		"types": ["svelte"],
 		"target": "ESNEXT",
-		"lib": [			"ESNEXT", "dom"],
+		"lib": ["ESNEXT", "dom"],
 		"module": "ESNEXT",
 		"moduleResolution": "node",
 		"noImplicitAny": true,
@@ -17,14 +15,11 @@
 		"forceConsistentCasingInFileNames": true,
 		"resolveJsonModule": true,
 		"isolatedModules": true,
-		"noEmit": false,
 		"strictNullChecks": true,
 		"baseUrl": "./",
 		"experimentalDecorators": true
 	},
 	"exclude": [
-		"lib",
 		"node_modules",
-	],
-	"include": ["src"]
+	]
 }

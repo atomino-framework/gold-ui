@@ -1,0 +1,53 @@
+import type FaIcon from "fa-icon";
+export interface IAuthApi {
+    login(login: string, password: string): Promise<any>;
+    logout(): Promise<any>;
+    get(): Promise<any>;
+}
+export interface IOptions {
+    logout: {
+        icon: FaIcon;
+    };
+    title: string;
+    background: {
+        color: string;
+        imageUrl: string;
+    };
+    logo: {
+        imageUrl: string;
+    };
+    tab: {
+        close: {
+            icon: FaIcon;
+        };
+        changed: {
+            icon: FaIcon;
+        };
+        loading: {
+            icon: FaIcon;
+        };
+    };
+    login: {
+        title: string;
+        input: {
+            login: {
+                icon: FaIcon;
+                placeholder: string;
+            };
+            password: {
+                icon: FaIcon;
+                placeholder: string;
+            };
+        };
+        button: {
+            login: {
+                text: string;
+            };
+        };
+    };
+}
+export interface IUser {
+    name: string;
+    roles: Array<string>;
+}
+//# sourceMappingURL=interfaces.d.ts.map

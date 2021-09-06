@@ -1,10 +1,10 @@
 <script lang="ts">
-	import type {IAuthApi} from "gold/interfaces";
-	import ListManager from "gold/list-manager";
-	import MenuItem from "gold/menu-item";
-	import options from "gold/options";
-	import PageManager from "gold/page-manager";
-	import user from "gold/user";
+	import type {IAuthApi} from "gold/lib/interfaces";
+	import ListManager from "gold/lib/list-manager";
+	import MenuItem from "gold/lib/menu-item";
+	import options from "gold/lib/options";
+	import PageManager from "gold/lib/page-manager";
+	import user from "gold/lib/user";
 
 	import Frame from "./frame.svelte";
 	import Login from "./login.svelte"

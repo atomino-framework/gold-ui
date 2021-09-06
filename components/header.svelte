@@ -1,8 +1,8 @@
 <script lang="ts">
-	import type {IAuthApi} from "gold/interfaces";
-	import MenuItem from "gold/menu-item";
-	import options from "gold/options";
-	import user from "gold/user"
+	import type {IAuthApi} from "gold/lib/interfaces";
+	import MenuItem from "gold/lib/menu-item";
+	import options from "gold/lib/options";
+	import user from "gold/lib/user"
 
 	export let menu: Array<MenuItem>;
 	export let authApi: IAuthApi;

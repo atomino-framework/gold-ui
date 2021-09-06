@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type {IAuthApi} from "gold/interfaces";
-	import options from "gold/options";
+	import type {IAuthApi} from "gold/lib/interfaces";
+	import options from "gold/lib/options";
 
 	let login:string = '';
 	let password:string = '';

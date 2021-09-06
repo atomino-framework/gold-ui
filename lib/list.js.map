@@ -1,0 +1,1 @@
+{"version":3,"file":"list.js","sourceRoot":"","sources":["../src/list.ts"],"names":[],"mappings":"AAGA,MAAM,CAAC,OAAO,OAAgB,IAAI;IAAlC;QAEQ,gBAAW,GAAuB,IAAI,CAAC;IAM/C,CAAC;IAJA,QAAQ,CAAC,WAAwB,IAAiB,IAAI,CAAC,WAAW,GAAG,WAAW,CAAC,CAAC,OAAO,OAAO,CAAC,OAAO,EAAE,CAAC,CAAA,CAAC;CAI5G"}

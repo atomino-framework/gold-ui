@@ -1,8 +1,8 @@
 <script lang="ts">
 	import type {Writable} from "svelte/store";
-	import FaIcon from "gold/fa-icon";
-	import type Page from "gold/page";
-	import options from "gold/options";
+	import FaIcon from "gold/lib/fa-icon";
+	import type Page from "gold/lib/page";
+	import options from "gold/lib/options";
 
 
 	export let page: Page;

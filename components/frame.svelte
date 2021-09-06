@@ -1,9 +1,9 @@
 <script lang="ts">
-	import modalManager from "gold/modal-manager";
-	import type {IAuthApi} from "gold/interfaces";
-	import MenuItem from "gold/menu-item";
-	import type ListManager from "gold/list-manager";
-	import type PageManager from "gold/page-manager";
+	import modalManager from "gold/lib/modal-manager";
+	import type {IAuthApi} from "gold/lib/interfaces";
+	import MenuItem from "gold/lib/menu-item";
+	import type ListManager from "gold/lib/list-manager";
+	import type PageManager from "gold/lib/page-manager";
 	import Header from "./header.svelte";
 	import ListContainer from "./list-container.svelte";
 	import Tabs from "./tabs.svelte";

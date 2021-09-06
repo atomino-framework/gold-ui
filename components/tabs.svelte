@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type {Writable} from "svelte/store";
-	import type Page from "gold/page";
+	import type Page from "gold/lib/page";
 	import Tab from "./tab.svelte";
 
 	export let pages: Array<Page>;

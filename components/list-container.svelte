@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ListManager from "gold/list-manager";
+	import ListManager from "gold/lib/list-manager";
 
 	export let listManager: ListManager;
 

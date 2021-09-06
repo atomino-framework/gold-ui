@@ -1,7 +1,6 @@
 {
 	"compilerOptions": {
-		"rootDir": "./src",
-		"outDir": "./",
+		"outDir": "./lib",
 		"declaration": true,
 		"declarationMap": true,
 		"sourceMap": true,

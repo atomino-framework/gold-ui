@@ -1,4 +1,4 @@
-import toast from "toast";
+import toast from "./toast";
 export default function handleFetch(res) {
     switch (res.status) {
         case 200:

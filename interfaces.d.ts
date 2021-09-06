@@ -1,4 +1,4 @@
-import type FaIcon from "fa-icon";
+import type FaIcon from "./fa-icon";
 export interface IAuthApi {
     login(login: string, password: string): Promise<any>;
     logout(): Promise<any>;

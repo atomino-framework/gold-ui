@@ -1,4 +1,4 @@
-import FaIcon from "fa-icon";
+import FaIcon from "./fa-icon";
 let options = {
     title: "Gold admin",
     logo: {

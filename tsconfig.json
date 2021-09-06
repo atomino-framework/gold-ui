@@ -1,5 +1,7 @@
 {
 	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "./",
 		"declaration": true,
 		"declarationMap": true,
 		"sourceMap": true,
@@ -16,10 +18,9 @@
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"strictNullChecks": true,
-		"baseUrl": "./",
 		"experimentalDecorators": true
 	},
 	"exclude": [
-		"node_modules",
+		"node_modules"
 	]
 }

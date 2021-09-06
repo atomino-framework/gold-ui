@@ -1,5 +1,5 @@
 // @ts-ignore
-import {Toast, Notification} from "svelma"
+import {Notification} from "svelma"
 
 export default {
 	success: (message:string)=>Notification.create({message, type:"is-success", position: "is-bottom-right", showClose:false}),

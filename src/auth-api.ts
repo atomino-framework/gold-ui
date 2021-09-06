@@ -1,6 +1,6 @@
-import handleFetch from "handle-fetch";
-import type {IAuthApi} from "interfaces";
-import user from "user";
+import handleFetch from "./handle-fetch";
+import type {IAuthApi} from "./interfaces";
+import user from "./user";
 
 export default class AuthApi implements IAuthApi {
 

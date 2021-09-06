@@ -1,5 +1,5 @@
-import type ListManager from "gold/list-manager";
-import type Page from "page";
+import type ListManager from "./list-manager";
+import type Page from "./page";
 import type { Writable } from "svelte/store";
 export default class PageManager {
     listManager: ListManager | null;

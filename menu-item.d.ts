@@ -1,4 +1,4 @@
-import type FaIcon from "fa-icon";
+import type FaIcon from "./fa-icon";
 export default class MenuItem {
     label: string;
     icon: FaIcon | null;

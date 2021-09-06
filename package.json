@@ -3,6 +3,7 @@
     "name": "Gergely Laborci"
   },
   "dependencies": {
+    "svelma": "^0.4.5",
     "svelte": "^3.42.4"
   },
   "bundleDependencies": [],

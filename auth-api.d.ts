@@ -1,4 +1,4 @@
-import type { IAuthApi } from "interfaces";
+import type { IAuthApi } from "./interfaces";
 export default class AuthApi implements IAuthApi {
     private apibase;
     constructor(apibase?: string);

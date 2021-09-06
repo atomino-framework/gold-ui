@@ -1,5 +1,5 @@
-import handleFetch from "handle-fetch";
-import user from "user";
+import handleFetch from "./handle-fetch";
+import user from "./user";
 export default class AuthApi {
     constructor(apibase = "/gold/auth") {
         this.apibase = apibase;

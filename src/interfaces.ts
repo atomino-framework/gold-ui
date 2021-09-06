@@ -1,5 +1,4 @@
-import type FaIcon from "fa-icon";
-import type {Writable} from "svelte/store";
+import type FaIcon from "./fa-icon";
 
 export interface IAuthApi{
 	login(login:string, password:string):Promise<any>;

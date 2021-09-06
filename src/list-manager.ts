@@ -1,5 +1,5 @@
-import type PageManager from "page-manager";
-import type List from "list";
+import type PageManager from "./page-manager";
+import type List from "./list";
 import {writable} from "svelte/store";
 import type {Writable} from "svelte/store";
 

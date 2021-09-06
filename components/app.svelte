@@ -1,13 +1,13 @@
 <script lang="ts">
-	import type {IAuthApi} from "interfaces";
-	import ListManager from "list-manager";
-	import MenuItem from "menu-item";
-	import options from "options";
-	import PageManager from "page-manager";
+	import type {IAuthApi} from "gold/interfaces";
+	import ListManager from "gold/list-manager";
+	import MenuItem from "gold/menu-item";
+	import options from "gold/options";
+	import PageManager from "gold/page-manager";
+	import user from "gold/user";
 
-	import user from "user";
-	import Frame from "components/frame.svelte";
-	import Login from "components/login.svelte"
+	import Frame from "./frame.svelte";
+	import Login from "./login.svelte"
 
 	export let pageManager: PageManager;
 	export let listManager: ListManager;

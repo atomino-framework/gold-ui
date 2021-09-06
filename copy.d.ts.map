@@ -1,1 +1,1 @@
-{"version":3,"file":"copy.d.ts","sourceRoot":"","sources":["copy.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,OAAO,UAAU,IAAI,CAAC,IAAI,EAAC,GAAG,QAEpC"}
+{"version":3,"file":"copy.d.ts","sourceRoot":"","sources":["src/copy.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,OAAO,UAAU,IAAI,CAAC,IAAI,EAAC,GAAG,QAEpC"}

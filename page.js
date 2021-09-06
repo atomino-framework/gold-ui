@@ -1,4 +1,4 @@
-import FaIcon from "fa-icon";
+import FaIcon from "./fa-icon";
 import { writable } from "svelte/store";
 export default class Page {
     constructor() {

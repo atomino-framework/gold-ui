@@ -4,7 +4,15 @@
   },
   "dependencies": {
     "svelma": "^0.4.5",
-    "svelte": "^3.42.4"
+    "svelte": "^3.42.4",
+    "@creativebulma/bulma-divider": "^1.1.0",
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-pro": "^5.15.3",
+    "bulma": "^0.9.3",
+    "bulma-prefers-dark": "*",
+    "bulmaswatch": "^0.8.1",
+    "font-awesome-animation": "^1.1.1",
+    "font-awesome-filetypes": "^2.1.0"
   },
   "bundleDependencies": [],
   "deprecated": false,

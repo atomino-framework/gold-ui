@@ -38,6 +38,7 @@
 	$fa-font-path: "/~fonts/fontawesome-free";
 	@import "@fortawesome/fontawesome-free/scss/brands";
 	@import "@fortawesome/fontawesome-free/scss/solid";
+	@import "@fortawesome/fontawesome-free/scss/fontawesome";
 
 	@import "@creativebulma/bulma-divider/dist/bulma-divider.css";
 	@import "bulma/bulma";

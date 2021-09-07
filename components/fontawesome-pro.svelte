@@ -1,3 +1,5 @@
+<!-- add "@fortawesome/fontawesome-pro": "^5.15.3" to dependencies -->
+
 <style lang="scss" global>
 	@import "@fortawesome/fontawesome-pro/scss/variables";
 	$fa-font-path: "/~fonts/fontawesome-pro";

@@ -34,20 +34,14 @@
 {/await}
 
 <style lang="scss" global>
+	@import "@fortawesome/fontawesome-free/scss/variables";
+	$fa-font-path: "/~fonts/fontawesome-free";
+	@import "@fortawesome/fontawesome-free/scss/brands";
+	@import "@fortawesome/fontawesome-free/scss/solid";
+
 	@import "@creativebulma/bulma-divider/dist/bulma-divider.css";
-	@import "@fortawesome/fontawesome-pro/scss/variables";
-	$fa-font-path: "/~fonts/fontawesome-pro";
-	@import "@fortawesome/fontawesome-pro/scss/brands";
-	@import "@fortawesome/fontawesome-pro/scss/regular";
-	@import "@fortawesome/fontawesome-pro/scss/solid";
-	@import "@fortawesome/fontawesome-pro/scss/light";
-	@import "@fortawesome/fontawesome-pro/scss/duotone";
-	@import "@fortawesome/fontawesome-pro/scss/fontawesome";
-	//@import "bulma/css/bulma.min.css";
-	//@import "bulmaswatch/superhero/variables";
 	@import "bulma/bulma";
 	@import "bulma-prefers-dark/bulma-prefers-dark.sass";
-	//@import "bulmaswatch/superhero/overrides";
 	@import "font-awesome-animation/css/font-awesome-animation.css";
 
 	* {

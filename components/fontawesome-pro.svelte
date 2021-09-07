@@ -1,0 +1,10 @@
+<style lang="scss" global>
+	@import "@fortawesome/fontawesome-pro/scss/variables";
+	$fa-font-path: "/~fonts/fontawesome-pro";
+	@import "@fortawesome/fontawesome-pro/scss/brands";
+	@import "@fortawesome/fontawesome-pro/scss/regular";
+	@import "@fortawesome/fontawesome-pro/scss/solid";
+	@import "@fortawesome/fontawesome-pro/scss/light";
+	@import "@fortawesome/fontawesome-pro/scss/duotone";
+	@import "@fortawesome/fontawesome-pro/scss/fontawesome";
+</style>

@@ -1,4 +1,7 @@
-<!-- add "@fortawesome/fontawesome-pro": "^5.15.3" to dependencies -->
+<!--
+package.json dependencies: "@fortawesome/fontawesome-pro": "^5.15.3" to dependencies
+index.ts: import FontAwesomePro from "gold/components/fontawesome-pro.svelte"
+-->
 
 <style lang="scss" global>
 	@import "@fortawesome/fontawesome-pro/scss/variables";

@@ -42,7 +42,16 @@
 
 	@import "@creativebulma/bulma-divider/dist/bulma-divider.css";
 	@import "bulma/bulma";
-	@import "bulma-prefers-dark/bulma-prefers-dark.sass";
+	//@import "bulma-prefers-dark/bulma-prefers-dark.sass";
+
+	@import "bulma-prefers-dark/sass/utilities/_all";
+	//+prefers-scheme(dark)
+	@import "bulma-prefers-dark/sass/base/_all";
+	@import "bulma-prefers-dark/sass/elements/_all";
+	@import "bulma-prefers-dark/sass/components/_all";
+	@import "bulma-prefers-dark/sass/layout/_all";
+
+
 	@import "font-awesome-animation/css/font-awesome-animation.css";
 
 	* {

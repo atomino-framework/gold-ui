@@ -1,3 +1,4 @@
+import {IUser} from "./interfaces";
 import handleFetch from "./handle-fetch";
 import type {IAuthApi} from "./interfaces";
 import user from "./user";
@@ -8,15 +9,15 @@ export default class AuthApi implements IAuthApi {
 
 	get(): Promise<any> {
 		return fetch(this.apibase + '/get', {method: "POST"}).then(handleFetch).then(res => {
-			user.set(res);
-			return res;
+			user.update((user:IUser|null)=>{
+				if(user === null && res !== null && this.onLogin !== null) this.onLogin();
+				return res;
+			});
 		});
 	}
 
 	login(login: string, password: string): Promise<any> {
-		return fetch(this.apibase + '/login', {method: "POST", body: JSON.stringify({login, password})}).then(handleFetch).then(res => {
-			if (null !== this.get() && this.onLogin !== null) this.onLogin();
-		});
+		return fetch(this.apibase + '/login', {method: "POST", body: JSON.stringify({login, password})}).then(handleFetch).then(res =>this.get());
 	}
 
 	logout(): Promise<any> {
